@@ -6,6 +6,6 @@ public class Administrator {
   }
 
   public void stopServer(){
-    
+     // write it
   }
 }

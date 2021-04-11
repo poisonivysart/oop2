@@ -1,5 +1,6 @@
 import java.util.Arrays;  
-public class NumbersAndOperand {
+// Should be serializable because we add it ass argument to skeleoton
+public class NumbersAndOperand extends Serialize {
   private int number1;
   private int number2;
   private int operand;

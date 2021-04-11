@@ -3,7 +3,7 @@ import java.rmi.registry.Registry ;
 import java.rmi.server.UnicastRemoteObject ;
 import java.util.Arrays ;
 
-public class Server {
+public class Server implements CalculateService{
   
   public static void main ( String [ ] args ) { 
     try {
