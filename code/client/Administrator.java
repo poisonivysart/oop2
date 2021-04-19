@@ -1,11 +1,7 @@
 public class Administrator {
-  private int passcode;
+  private String passcode;
 
-  Administrator(int passcode){
+  Administrator(String passcode){
     this.passcode = passcode;
-  }
-
-  public void stopServer(){
-     // write it
   }
 }
